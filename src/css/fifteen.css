@@ -1,0 +1,36 @@
+.wrapper {
+  background-color: cyan;
+  width: 250px;
+  height: 250px;
+  /* padding: 10px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.btn {
+  width: 60px;
+  height: 60px;
+  margin: 1px;
+  position: relative;
+  border-radius: 22%;
+  padding: 0;
+  border: none;
+  font: inherit;
+  /* color: inherit; */
+  /* background-color: transparent; */
+  /* border: solid 1px transparent; */
+  /* border-radius: 4px; */
+  outline-style: none;
+  color: #ffffff;
+  background-color: #9555af;
+}
+
+.wrapper > [data-value='0'] {
+  opacity: 0;
+  z-index: -1;
+}
+
+.title {
+  color: crimson;
+}
